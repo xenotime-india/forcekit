@@ -1,0 +1,20 @@
+{
+  "presets": ["stage-2", "es2015"],
+  "plugins": [
+    "add-module-exports",
+    "minify-constant-folding",
+    "minify-dead-code-elimination",
+    "minify-flip-comparisons",
+    "minify-guarded-expressions",
+    "minify-infinity",
+    "minify-mangle-names",
+    "minify-replace",
+    "minify-simplify",
+    "minify-type-constructors",
+    "transform-member-expression-literals",
+    "transform-minify-booleans",
+    "transform-property-literals",
+    "transform-simplify-comparison-operators",
+    "transform-undefined-to-void"
+  ]
+}
